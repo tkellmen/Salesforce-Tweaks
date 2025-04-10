@@ -2,7 +2,6 @@
     "manifest_version": 3,
     "name": "Salesforce Tweaks",
     "version": "1.0",
-    "permissions": ["storage"],
     "description": "Salesforce Tweaks adds a button to quickly collapse the sidebar in Salesforce. More tweaks coming soon!",
     "content_scripts": [
         {
