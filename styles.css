@@ -1,0 +1,46 @@
+.sidebar-toggle {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    transform: translateX(-50%);
+    transition: background-color 0.2s;
+    margin-top: 2px;
+    box-shadow: none;
+    margin-right: -10px;
+}
+
+.sidebar-toggle:hover {
+    background-color: #f8f8f8;
+}
+
+
+.rotated {
+    transform: rotate(45deg)!important;
+}
+
+.arrow {
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid #666;
+    border-right: 2px solid #666;
+    transform: rotate(-135deg);
+    transition: transform 0.3s ease;
+}
+
+.slds-context-bar__primary{
+    transition: 1.3s;
+}
+.collapsed-side-bar{
+    --lwc-setupSplitViewWidth:0;
+}
+
+.split-left,.split-right {
+    transition: 0.3s!important;
+}
